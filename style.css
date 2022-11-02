@@ -1,0 +1,54 @@
+a {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(236, 234, 234);
+    transition: 0.2s all linear;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+
+a:hover {
+    color: rgb(75, 75, 75);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgba(0, 0, 0, 0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(202, 202, 202, 0.6);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 255, 255);
+}
+
+.task-div {
+    scroll-snap-align: start;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 0 10px 0 10px;
+    border-radius: 5px;
+}
+
+.header {
+    color: rgb(236, 234, 234);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+    padding-top: 20px;
+}

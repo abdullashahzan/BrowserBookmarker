@@ -1,0 +1,21 @@
+{
+    "name": "Bookmarking tabs",
+    "version": "1.0.0",
+    "description": "This extension can automatically update your bookmarks for your favourite videos on the internet",
+    "manifest_version": 3,
+    "author": "A.S. Zan",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Bookmark"
+    },
+    "permissions": [
+        "tabs",
+        "bookmarks"
+    ],
+    "icons": {
+        "16": "logos.png",
+        "32": "logos.png",
+        "48": "logos.png",
+        "128": "logos.png"
+    }
+}

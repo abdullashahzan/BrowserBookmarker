@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my todo list</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="image-container"
+    style="background-image: url('https://besthqwallpapers.com/Uploads/4-9-2021/178081/thumb2-black-low-poly-background-4k-triangles-patterns-low-poly-textures-geometric-shapes.jpg'); background-repeat: no-repeat; background-size: cover;">
+    <div class="overlay" style="background-color: rgba(58, 58, 58, 0.3);">
+        <div class="h1 d-flex justify-content-center text-white header">My watchlist</div>
+        <div class="container-fluid" style="width: 400px; padding-top: 5px;">
+            <div id="display1">
+                <div class="tasks-list-div " dir="ltr" id="tasksList" style="border: 2px solid rgb(206, 206, 206); width: 376px; height: 425px; margin-bottom: 10px; overflow-x: hidden; overflow-y: auto;
+                border-radius: 10px; scroll-snap-type: y mandatory; scroll-padding-top: 10px;">
+                </div>
+            </div>
+            <div id="display2">
+                <div class="task-clear-div d-flex justify-content-center" style="padding-bottom: 10px;">
+                    <button id="task-submit-btn" class="task-btn task-btn-submit btn btn-outline-light btn-lg"
+                        style="border-radius: 100px; margin: 10px 0 10px 0;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                            class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z" />
+                            <path
+                                d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z" />
+                        </svg> Bookmark this website</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
